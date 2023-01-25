@@ -12,7 +12,7 @@ import { AppServerModule } from './src/main.server';
 export function app(): express.Express {
   console.log('inside app method');
   const server = express();
-  const distFolder = join(process.cwd(), 'dist/angular-firebase-todo/browser');
+  const distFolder = join(process.cwd(), 'dist/angular.io-example/browser');
   const indexHtml = existsSync(join(distFolder, 'index.original.html'))
     ? 'index.original.html'
     : 'index';
