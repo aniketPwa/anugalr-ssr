@@ -13,6 +13,7 @@
     "dev:ssr": "ng run angular.io-example:serve-ssr",
     "serve:ssr": "node dist/server/main.js",
     "build:ssr": "ng build && ng run angular.io-example:server",
+    "copy:files": "node ./scripts/copyFiles.js",
     "prerender": "ng run angular.io-example:prerender"
   },
   "private": true,
